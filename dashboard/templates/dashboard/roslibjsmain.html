@@ -4,9 +4,18 @@
 <meta charset="utf-8" />
 <script src="http://static.robotwebtools.org/EventEmitter2/current/eventemitter2.js"></script>
 <script src="http://static.robotwebtools.org/roslibjs/current/roslib.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-find fbb of <input type="number" name="fbbnum" id="fbbnum" onkeyup="printName()">
-<div id='result'></div>
+<div class=”well“ style="border: 1px; border-style: groove; margin:5px; width: 400px;">
+    <p style="margin: 5px;">type number to server, it calculates fbbnum.</p>
+</div>
+
+<div class="input-group mb-3" style="margin:5px; width: 400px;" >
+    <span class="input-group-text" id="basic-addon1" name="fbbnum">find fbb of</span>
+    <input type="text" class="form-control" placeholder="Number" aria-label="Username" aria-describedby="basic-addon1" name="fbbnum" id="fbbnum" onkeyup="printName()">
+</div>
     
 <script>
     function printName()  {
@@ -53,8 +62,6 @@ find fbb of <input type="number" name="fbbnum" id="fbbnum" onkeyup="printName()"
 
 
 </script>
-
-// send number to server, it calculates fbbnum.
 
 
 
