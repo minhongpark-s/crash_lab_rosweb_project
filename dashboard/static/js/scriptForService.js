@@ -38,7 +38,7 @@ ros.on('error', function (error) {
     });
 
     Client.callService(sendNumbers, function(result){
-        console.log(sendNumbers.a+ '+' + sendNumbers.b + "is " + result.result);
+        console.log(sendNumbers.a + ' + ' + sendNumbers.b + " is " + result.result);
         document.getElementById('datashow').value = result.result;
     })
 

@@ -11,10 +11,10 @@ def roslibjs(request):
                 request,
                 'dashboard/roslibindex.html',
                  )
-def roslibjsmain(request):
+def roslibjsAction(request):
     return render(
                 request,
-                'dashboard/roslibjsmain.html',
+                'dashboard/roslibjsAction.html',
                  )
 
 def roslibjsSP(request):
