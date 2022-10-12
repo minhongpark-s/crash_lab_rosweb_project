@@ -16,4 +16,16 @@ def roslibjsmain(request):
                 request,
                 'dashboard/roslibjsmain.html',
                  )
+
+def roslibjsSP(request):
+    return render(
+                request,
+                'dashboard/roslibjsSubPub.html',
+                 )
+
+def serviceConnectionTest(request):
+    return render(
+                request,
+                'dashboard/serviceConnectionTest.html',
+                 )
                  
